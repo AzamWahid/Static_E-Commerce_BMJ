@@ -1,0 +1,78 @@
+body {
+    /* background-image: url(../images/bgimage.jpg); */
+}
+
+header {
+    width: 100%;
+    /* height: 150px; */
+    margin: 0 auto;
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* background-color: #BDB4B4; */
+    text-align: center;
+}
+
+.headtext {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2vw;
+    /* padding: 2%; */
+    margin: 0 auto;
+    /* height: 100%; */
+    /* text-align: center; */
+    /* float: left; */
+}
+
+.logo {
+    width: 15%;
+    /* height: 100%; */
+    text-align: center;
+}
+
+.imglogo {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 50%;
+    text-align: center;
+}
+
+.head {
+    width: 100%;
+    /* text-align: center; */
+}
+
+.headimg {
+    width: 80%;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-top: -4%;
+    /* padding-top: -10px; */
+    /* height: 100px; */
+}
+.container{
+
+        text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.box{
+    width: 33%;
+    border: outset 10px transparent;
+    box-shadow: 1px 1px 2px 2px #00ffff;
+}
+/* .box1{
+    width: 33%;
+    border: outset 10px transparent;
+    box-shadow: 1px 1px 2px 2px #00ffff;
+} */
+.Contimg{
+    max-width: 100%;
+}
+.container {
+    margin: 0 auto;
+}
+button{
+    background-color: ;
+}
