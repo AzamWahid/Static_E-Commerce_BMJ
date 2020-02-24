@@ -1,5 +1,6 @@
 body {
     /* background-image: url(../images/bgimage.jpg); */
+    /* background: linear-gradient(to bottom, #ffffcc 0%, #ffff99 50%); */
 }
 
 header {
@@ -10,6 +11,12 @@ header {
     /* display: flex; */
     /* background-color: #BDB4B4; */
     text-align: center;
+}
+
+h1 {
+    font-family: "Engravers MT", fantasy, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .headtext {
@@ -24,18 +31,37 @@ header {
     /* float: left; */
 }
 
+.lognav {
+    display: flex;
+    /* width: 85%; */
+}
+
 .logo {
     width: 15%;
     /* height: 100%; */
-    text-align: center;
+    /* text-align: left; */
 }
 
 .imglogo {
     max-width: 100%;
     max-height: 100%;
-    padding-left: 50%;
-    text-align: center;
+    padding-left: 58%;
+    /* align: left; */
 }
+
+.headnav {
+    /* display: inline-block; */
+    width: 85%;
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 7%;
+    /* bottom: 0; */
+}
+
+
+/* .headnav>a {
+    margin-right: 10%;
+} */
 
 .head {
     width: 100%;
@@ -44,35 +70,99 @@ header {
 
 .headimg {
     width: 80%;
-    max-height: 200px;
+    max-height: 300px;
     margin: 0 auto;
     margin-top: -4%;
     /* padding-top: -10px; */
     /* height: 100px; */
 }
-.container{
 
-        text-align: center;
-    width: 80%;
+.nav {
+    padding: 2%;
+}
+
+a {
+    font-weight: bold;
+    margin: 1%;
+    color: #993300;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
+    /* display: flex; */
+    /* display: inline-block; */
+}
 
+.imagesbox {
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.box{
-    width: 33%;
+
+.box {
+    width: 20%;
+    /* height: 200px; */
     border: outset 10px transparent;
-    box-shadow: 1px 1px 2px 2px #00ffff;
+    box-shadow: 1px 1px 2px 2px #000000;
+    /* display: inline-block; */
+    /* text-align: center; */
+    margin: 1%;
 }
+
+
 /* .box1{
     width: 33%;
     border: outset 10px transparent;
     box-shadow: 1px 1px 2px 2px #00ffff;
 } */
-.Contimg{
+
+.Contimg {
     max-width: 100%;
 }
+
+.Contimg:hover {
+    transform: scale(1.5);
+}
+
 .container {
     margin: 0 auto;
 }
-button{
-    background-color: ;
+
+.addtocart {
+    background-color: #ffaa80;
+}
+
+.main1rate {
+    text-decoration: underline;
+}
+
+.rate {
+    font-weight: bold;
+    color: #D10909;
+}
+
+.rate footer {
+    border: double 1%;
+    text-align: center;
+    height: 100px;
+}
+
+.topbutton {
+    max-width: 5%;
+    /* height: 5px; */
+    /* width: 48;  */
+    /* background-image: url(../images/topbutton.png); */
+}
+
+.top {
+    text-align: right;
+    padding-right: 2%;
 }
