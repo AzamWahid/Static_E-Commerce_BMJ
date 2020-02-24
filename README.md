@@ -1,1 +1,1 @@
-# Static_E-Commerce-_BMJ
+# Static_E-Commerce_BMJ
