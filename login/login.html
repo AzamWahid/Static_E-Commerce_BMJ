@@ -5,63 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/style.css" type="text/css">
 </head>
-<div class="container">
-    <header id="top">
-        <div class="lognav">
-            <div class="logo">
-                <a href="../index.html"><img class="imglogo" src="../images/HatchfulExport-All/logo_transparent.png" alt=""></a>
-            </div>
-            <div class="headnav">
-                <a href="../login/login.html">login</a> /
-                <a href="../login/signup.html">Sign Up</a>
-            </div>
-        </div>
-        <!-- <div class="headtext">
-        <h1> SMART CHAIR SHOP </h1>
-    </div> -->
-        <div class="head">
-            <img class="headimg" src="../images/head1img.jpg" alt="">
-        </div>
-        <div class="nav">
-            <a href="../index.html">HOME </a>
-            <a href="../bedroom/bedroom.html">BED ROOM </a>
-            <a href="../livingroom/living.html">LIVING ROOM</a>
-            <a href="../diningroom/dining.html">DINING</a>
-            <a href="../Office/office.html">OFFICE FURNITURE</a>
-            <a href="../special/special.html">SPECIAL OFFER</a>
-        </div>
-    </header>
-    <h1>LOGIN</h1>
-    <div class="main">
-        <div class="form">
-            <form action="">
-                <label for="email">Email :</label>
-                <input id="email" type="text"> <br />
-                <label for="password">Password :</label>
-                <input id="password" type="password">
-            </form>
-        </div>
-    </div>
-    <div class="top">
-        <!-- <button class=".topbutton"></button> -->
-        <!-- <button href="#top" class="topbutton" /> -->
-        <a href="#top"><img class="topbutton" src="../images/topbutton.png" /></a>
-    </div>
-    <footer>
-        <hr />
-        <a href="../about/about.html">About</a>
-        <a href="../Contact/contact.html">Contact us</a>
-        <a href="../career/career.html">Career</a>
-        <a href="../terms/terms.html">Terms & Conditions</a>
-        <p>
-            © 2020 FURNITURE CLUB. All rights reserved.
-        </p>
-    </footer>
-</div>
 
 <body>
+    <div class="container_login">
+        <div id="top_login" class="header_login">
+            <div class="lognav_login">
+                <div class="logo_login">
+                    <a href="../index.html"><img class="imglogo_login" src="../images/HatchfulExport-All/logo_transparent.png" alt=""></a>
+                </div>
+                <div class="headnav_login">
+                    <a href="../login/login.html">login</a> /
+                    <a href="../login/signup.html">Sign Up</a>
+                </div>
+            </div>
+            <!-- <div class="headtext">
+        <h1> SMART CHAIR SHOP </h1>
+    </div> -->
+            <div class="head_login">
+                <img class="headimg_login" src="../images/head2.jpg" alt="">
+            </div>
+            <div class="nav_login">
+                <a href="../index.html">HOME </a>
+                <a href="../bedroom/bedroom.html">BED ROOM </a>
+                <a href="../livingroom/living.html">LIVING ROOM</a>
+                <a href="../diningroom/dining.html">DINING</a>
+                <a href="../Office/office.html">OFFICE FURNITURE</a>
+                <!-- <a href="../special/special.html">SPECIAL OFFER</a> -->
+            </div>
+        </div>
+        <h1>Log In</h1>
+        <div class="main">
+            <div class="form">
+                <!-- <div class="dropdown-menu"> -->
+                <form class="px-4 py-3">
+                    <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                          Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./signup.html">New around here? Sign up</a>
+                <a class="dropdown-item" href="#">Forgot password?</a>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class="top">
+            <!-- <button class=".topbutton"></button> -->
+            <!-- <button href="#top" class="topbutton" /> -->
+            <a href="#top_login"><img class="topbutton" src="../images/topbutton.png" /></a>
+        </div>
+        <div class="footer_login">
+            <hr />
+            <a href="../about/about.html">About</a>
+            <a href="../Contact/contact.html">Contact us</a>
+            <a href="../career/career.html">Career</a>
+            <a href="../terms/terms.html">Terms & Conditions</a>
+            <p>
+                © 2020 FURNITURE CLUB. All rights reserved.
+            </p>
+        </div>
+    </div>
+
 
 </body>
 
