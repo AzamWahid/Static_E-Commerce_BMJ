@@ -187,6 +187,12 @@ a:hover {
     /* width: 80%; */
 }
 
+@media (max-width: 500px) {
+    .imagesbox {
+        flex-direction: column;
+    }
+}
+
 .box {
     width: 20%;
     /* height: 100%; */
@@ -196,6 +202,15 @@ a:hover {
     /* text-align: center; */
     margin: 1%;
     /* position: relative;  */
+}
+
+@media (max-width: 500px) {
+    .box {
+        width: 90%;
+        margin: 1%;
+        border: outset 10px transparent;
+        box-shadow: 1px 1px 2px 2px #112568;
+    }
 }
 
 .form {
